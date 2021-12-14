@@ -52,8 +52,7 @@ class ICD
     /**
      * Notes on Use of Code: Specific object and attribute naming conventions are currently being defined. Issuing agency: The Radio Amateur Telecommunications Society, USA.
      **/
-    const INTERNATIONAL_CODE_DESIGNATOR_FOR_THE_IDENTIFICATION_OF_OSIBASED_AMATEUR_RADIO
-____________ORGANIZATIONS_NETWORK_OBJECTS_AND_APPLICATION_SERVICES = "0011";
+    const INTERNATIONAL_CODE_DESIGNATOR_FOR_THE_IDENTIFICATION_OF_OSIBASED_AMATEUR_RADIO_ORGANIZATIONS_NETWORK_OBJECTS_AND_APPLICATION_SERVICES = "0011";
 
     /**
      * Issuing agency: European Computer Manufacturers Association, SWITZERLAND.
@@ -408,8 +407,7 @@ ____________ORGANIZATIONS_NETWORK_OBJECTS_AND_APPLICATION_SERVICES = "0011";
     /**
      * Notes on Use of Code: For use in EDIFACT messages in accordance with current national recommendation on identification of EDI objects. (EDIRA compliant). Issuing agency: Norwegian Telecommunications Authority, NORWAY.
      **/
-    const NORWEGIAN_TELECOMMUNICATIONS_AUTHORITYS_NTAS_EDI_IDENTIFIER_SCHEME_EDIRA
-____________COMPLIANT = "0082";
+    const NORWEGIAN_TELECOMMUNICATIONS_AUTHORITYS_NTAS_EDI_IDENTIFIER_SCHEME_EDIRA_COMPLIANT = "0082";
 
     /**
      * Notes on Use of Code: The ICD code will also form part of the Initial Domain Part of the OSI network addressing as specified in Addendum 2 to ISO 8348. Issuing agency: ATM Ltd, ENGLAND.

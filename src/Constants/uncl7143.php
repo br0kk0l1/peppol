@@ -42,12 +42,12 @@ class UNCL7143
     /**
      * An 11-digit code that uniquely identifies consumer does not have a check digit.
      **/
-    const UPC_UNIVERSAL_PRODUCT_CODE_CONSUMER_PACKAGE_CODE_ = "AH";
+    const UPC_UNIVERSAL_PRODUCT_CODE_CONSUMER_PACKAGE_CODE = "AH";
 
     /**
      * A 12-digit code that uniquely identifies the consumer packaging of a product, including a check digit.
      **/
-    const UPC_UNIVERSAL_PRODUCT_CODE_CONSUMER_PACKAGE_CODE_ = "AI";
+    const UPC_UNIVERSAL_PRODUCT_CODE_CONSUMER_PACKAGE_CODE_CHECKED = "AI";
 
     /**
      * Number assigned to a sample.
@@ -147,22 +147,22 @@ class UNCL7143
     /**
      * A code identifying the product in national drug format 4-4-2.
      **/
-    const NATIONAL_DRUG_CODE__FORMAT = "BC";
+    const NATIONAL_DRUG_CODE__FORMAT_442 = "BC";
 
     /**
      * A code identifying the product in national drug format 5-3-2.
      **/
-    const NATIONAL_DRUG_CODE__FORMAT = "BD";
+    const NATIONAL_DRUG_CODE__FORMAT_532 = "BD";
 
     /**
      * A code identifying the product in national drug format 5-4-1.
      **/
-    const NATIONAL_DRUG_CODE__FORMAT = "BE";
+    const NATIONAL_DRUG_CODE__FORMAT_541 = "BE";
 
     /**
      * A code identifying the product in national drug format 5-4-2.
      **/
-    const NATIONAL_DRUG_CODE__FORMAT = "BF";
+    const NATIONAL_DRUG_CODE__FORMAT_542 = "BF";
 
     /**
      * A code specifying the national drug classification.
@@ -467,12 +467,12 @@ class UNCL7143
     /**
      * 5 digit code for product classification managed by the Institut Francais du Libre Service.
      **/
-    const IFLS_INSTITUT_FRANCAIS_DU_LIBRE_SERVICE__DIGIT_PRODUCT_CLASSIFICATION_CODE = "SRT";
+    const IFLS_INSTITUT_FRANCAIS_DU_LIBRE_SERVICE__DIGIT_PRODUCT_CLASSIFICATION_CODE_5 = "SRT";
 
     /**
      * 9 digit code for product classification managed by the Institut Francais du Libre Service.
      **/
-    const IFLS_INSTITUT_FRANCAIS_DU_LIBRE_SERVICE__DIGIT_PRODUCT_CLASSIFICATION_CODE = "SRU";
+    const IFLS_INSTITUT_FRANCAIS_DU_LIBRE_SERVICE__DIGIT_PRODUCT_CLASSIFICATION_CODE_9 = "SRU";
 
     /**
      * A unique number, up to 14-digits, assigned according to the numbering structure of the GS1 system.
@@ -852,12 +852,12 @@ class UNCL7143
     /**
      * The number is part of, or is generated in the context ofand maintained by the European Union (EU).
      **/
-    const EU_COMBINED_NOMENCLATURE = "TSP";
+    const EU_COMBINED_NOMENCLATURE_EU = "TSP";
 
     /**
      * The number is part of, or is generated in the context of the Combined Nomenclature classification, as developed and maintained by the European Union (EU).
      **/
-    const EU_COMBINED_NOMENCLATURE = "TSP";
+    const EU_COMBINED_NOMENCLATURE_CNC = "TSP";
 
     /**
      * A code to specify a product's therapeutic classification.

@@ -679,13 +679,13 @@ class UNECERec21
     const TROLLEY = "O2";
 
     
-    const ONEWAY_PALLET_ISO____EURO_PALLET = "O3";
+    const ONEWAY_PALLET_ISO_EURO_PALLET = "O3";
 
     
-    const ONEWAY_PALLET_ISO____EURO_PALLET = "O4";
+    const ONEWAY_PALLET_ISO_EURO_PALLET_2 = "O4";
 
     
-    const ONEWAY_PALLET_ISO____EURO_PALLET = "O5";
+    const ONEWAY_PALLET_ISO_EURO_PALLET_3 = "O5";
 
     
     const PALLET_WITH_EXCEPTIONAL_DIMENSIONS = "O6";
@@ -697,22 +697,22 @@ class UNECERec21
     const PLASTIC_PALLET_SRS__CM_X__CM = "O8";
 
     
-    const PLASTIC_PALLET_SRS__CM_X__CM = "O9";
+    const PLASTIC_PALLET_SRS__CM_X__CM_2 = "O9";
 
     /**
      * Commonwealth Handling Equipment Pool (CHEP) standard pallet of dimensions 40 centimeters x 60 centimeters.
      **/
-    const PALLET_CHEP__CM_X__CM = "OA";
+    const PALLET_CHEP__CM_X__CM_40x60 = "OA";
 
     /**
      * Commonwealth Handling Equipment Pool (CHEP) standard pallet of dimensions 80 centimeters x 120 centimeters.
      **/
-    const PALLET_CHEP__CM_X__CM = "OB";
+    const PALLET_CHEP__CM_X__CM_80x120 = "OB";
 
     /**
      * Commonwealth Handling Equipment Pool (CHEP) standard pallet of dimensions 100 centimeters x 120 centimeters.
      **/
-    const PALLET_CHEP__CM_X__CM = "OC";
+    const PALLET_CHEP__CM_X__CM_100x120 = "OC";
 
     /**
      * Australian standard pallet of dimensions 115.5 centimeters x 116.5 centimeters.
@@ -730,13 +730,13 @@ class UNECERec21
     const PLATFORM_UNSPECIFIED_WEIGHT_OR_DIMENSION = "OF";
 
     
-    const PALLET_ISO____EURO_PALLET = "OG";
+    const PALLET_ISO_EURO_PALLET = "OG";
 
     
-    const PALLET_ISO____EURO_PALLET = "OH";
+    const PALLET_ISO_EURO_PALLET_2 = "OH";
 
     
-    const PALLET_ISO____EURO_PALLET = "OI";
+    const PALLET_ISO_EURO_PALLET_3 = "OI";
 
     
     const _EURO_PALLET = "OJ";
@@ -747,13 +747,13 @@ class UNECERec21
     const BLOCK = "OK";
 
     
-    const _EURO_PALLET = "OL";
+    const EURO_PALLET = "OL";
 
     
     const SYNTHETIC_PALLET_ISO_ = "OM";
 
     
-    const SYNTHETIC_PALLET_ISO_ = "ON";
+    const SYNTHETIC_PALLET_ISO_2 = "ON";
 
     
     const WHOLESALER_PALLET = "OP";
@@ -762,7 +762,7 @@ class UNECERec21
     const PALLET__X__CM = "OQ";
 
     
-    const PALLET__X__CM = "OR";
+    const PALLET__X__CM_2 = "OR";
 
     
     const ONEWAY_PALLET = "OS";
@@ -787,7 +787,7 @@ class UNECERec21
     const A_WHEELED_PALLET_WITH_RAISED_RIM__X__X_ = "OX";
 
     
-    const A_WHEELED_PALLET_WITH_RAISED_RIM__X__X_ = "OY";
+    const A_WHEELED_PALLET_WITH_RAISED_RIM__X__X_2 = "OY";
 
     
     const WHEELED_PALLET_WITH_RAISED_RIM___X__X_ = "OZ";
@@ -804,7 +804,7 @@ class UNECERec21
     const LPR_PALLET__CM_X__CM = "P3";
 
     
-    const LPR_PALLET__CM_X__CM = "P4";
+    const LPR_PALLET__CM_X__CM_2 = "P4";
 
     /**
      * Small package.
@@ -820,12 +820,12 @@ class UNECERec21
     /**
      * Standard sized pallet of dimensions 80 centimeters by 100 centimeters (cms).
      **/
-    const PALLET_MODULAR_COLLARS_CMS__CMS = "PD";
+    const PALLET_MODULAR_COLLARS_CMS__CMS_80x100 = "PD";
 
     /**
      * Standard sized pallet of dimensions 80 centimeters by 120 centimeters (cms).
      **/
-    const PALLET_MODULAR_COLLARS_CMS__CMS = "PE";
+    const PALLET_MODULAR_COLLARS_CMS__CMS_80x120 = "PE";
 
     /**
      * A small open top enclosure for retaining animals.
@@ -1331,8 +1331,7 @@ class UNECERec21
     const INTERMEDIATE_BULK_CONTAINER_RIGID_PLASTIC_FREESTANDING_SOLIDS = "ZF";
 
     
-    const INTERMEDIATE_BULK_CONTAINER_RIGID_PLASTIC_WITH_STRUCTURAL_EQUIPMENT
-____________PRESSURISED = "ZG";
+    const INTERMEDIATE_BULK_CONTAINER_RIGID_PLASTIC_WITH_STRUCTURAL_EQUIPMENT_PRESSURISED = "ZG";
 
     
     const INTERMEDIATE_BULK_CONTAINER_RIGID_PLASTIC_FREESTANDING_PRESSURISED = "ZH";

@@ -712,7 +712,7 @@ class UNCL1001
     /**
      * order Order to draw up an estimate of the costs of maintenance or repair of transport equipment. 
      **/
-    const TRANSPORT_EQUIPMENT_MAINTENANCE_AND_REPAIR_WORK_ESTIMATE = "142";
+    const TRANSPORT_EQUIPMENT_MAINTENANCE_AND_REPAIR_WORK_ESTIMATE_2 = "142";
 
     /**
      * Report of transport equipment which has been repaired or has had maintenance performed. 
@@ -877,7 +877,7 @@ class UNCL1001
     /**
      * A report identifying the cost performance on a contract at specified levels of the work breakdown structure (format 2 - organizational categories). 
      **/
-    const COST_PERFORMANCE_REPORT_CPR_FORMAT_ = "175";
+    const COST_PERFORMANCE_REPORT_CPR_FORMAT = "175";
 
     /**
      * A report providing the status of the cost and schedule applicable to a contract. 
@@ -887,22 +887,22 @@ class UNCL1001
     /**
      * A report identifying the cost performance on a contract including the current month's values at specified levels of the work breakdown structure (format 1 - work breakdown structure). 
      **/
-    const COST_PERFORMANCE_REPORT_CPR_FORMAT_ = "177";
+    const COST_PERFORMANCE_REPORT_CPR_FORMAT_2 = "177";
 
     /**
      * A report identifying the cost performance on a contract that summarizes changes to a contract over a given reporting period with beginning and ending values (format 3 - baseline). 
      **/
-    const COST_PERFORMANCE_REPORT_CPR_FORMAT_ = "178";
+    const COST_PERFORMANCE_REPORT_CPR_FORMAT_3 = "178";
 
     /**
      * A report identifying the cost performance on a contract including forecasts of labour requirements for the remaining portion of the contract (format 4 - staffing). 
      **/
-    const COST_PERFORMANCE_REPORT_CPR_FORMAT_ = "179";
+    const COST_PERFORMANCE_REPORT_CPR_FORMAT_4 = "179";
 
     /**
      * A report identifying the cost performance on a contract that summarizes cost or schedule variances (format 5 - explanations and problem analysis). 
      **/
-    const COST_PERFORMANCE_REPORT_CPR_FORMAT_ = "180";
+    const COST_PERFORMANCE_REPORT_CPR_FORMAT_5 = "180";
 
     /**
      * Document or message progressively issued by the container terminal operator in charge of discharging a vessel identifying containers that have been discharged from a specific vessel at that point in time. 
@@ -2620,12 +2620,12 @@ class UNCL1001
     /**
      * (T2L) Form establishing the Community status of goods ("T2L" under EU Legislation). 
      **/
-    const EU_DOCUMENT_FOR_ESTABLISHING_THE_COMMUNITY_STATUS_OF_GOODS = "584";
+    const EU_DOCUMENT_FOR_ESTABLISHING_THE_COMMUNITY_STATUS_OF_GOODS_T2L = "584";
 
     /**
      * for certain fiscal purposes (T2LF) Form establishing the Community status of goods in the context of trade between the "VAT" territory of EU Member States and EU territories where the VAT rules do not apply, such as Canary islands, some French overseas territories, the Channel islands and the Aaland islands, and between those territories ("T2LF" under EU Legislation). 
      **/
-    const EU_DOCUMENT_FOR_ESTABLISHING_THE_COMMUNITY_STATUS_OF_GOODS = "585";
+    const EU_DOCUMENT_FOR_ESTABLISHING_THE_COMMUNITY_STATUS_OF_GOODS_T2LF = "585";
 
     /**
      * San Marino (T2LSM) Form establishing the Community status of goods ("T2L" under European Legislation) in the context of trade between the EU and San Marino. ("T2LSM" under EU Legislation). 
@@ -3270,12 +3270,12 @@ class UNCL1001
     /**
      * Transit declaration for goods circulating under internal community transit procedures (between European Union (EU) countries). 
      **/
-    const DESPATCH_NOTE_MODEL_T = "821";
+    const DESPATCH_NOTE_MODEL_T_INTERNAL = "821";
 
     /**
      * Ascertainment that the declared goods were originally produced in an European Union (EU) country. 
      **/
-    const DESPATCH_NOTE_MODEL_T = "822";
+    const DESPATCH_NOTE_MODEL_T_EU_PRODUCED = "822";
 
     /**
      * Control document (export declaration) used particularly in case of re-sending without use with only VAT collection, refusal, unconformity with contract etc. 

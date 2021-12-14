@@ -1,7 +1,7 @@
 <?php
 
 namespace PonderSource\Peppol\Constants;
-class UNCL4343-T111
+class UNCL4343T111
 {
 
     /**
