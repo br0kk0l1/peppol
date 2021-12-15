@@ -6,7 +6,7 @@ class Party {
     private EAS $endpointSchemeId;
     private string $endpointId;
     private ?array $partyIdentification;
-    private string $partyName;
+    private ?string $partyName;
     private PostalAddress $postalAddress;
     private ?PartyTaxScheme $partyTaxScheme1;
     private ?PartyTaxScheme $partyTaxScheme2;

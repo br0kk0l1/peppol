@@ -44,7 +44,7 @@ class Invoice {
     private ?TaxRepresentativeParty $taxRepresentativeParty;
     private ?Delivery $delivery;
     private ?array $paymentMeans;
-    private ?PaymentTerms $paymentTerms;
+    private ?string $paymentTerms;
     private ?array $allowanceChange;
     private TaxTotal $taxTotal;
     private ?TaxTotal $taxTotal2;

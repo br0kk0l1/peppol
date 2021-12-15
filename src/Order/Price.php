@@ -2,4 +2,8 @@
 
 namespace PonderSource\Peppol\Order;
 
-class Price {}
+class Price {
+    private Currency $amount;
+    private ?Quantity $baseQuantity;
+    private ?AllowanceCharge $allowance;
+}
